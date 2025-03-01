@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-
-    
-    
+    <div class="parent">
+        <div class="box">
+            <div class="inside-box">
+                <h1>Something Error</h1>
+                <p>Sorry, something went wrong. Please try again later. 
+                    <br>Or look at this small cute fox rotating.</p>
+                <div style="width: 100px; height: 100px;">
+                    <img src="nyanfox.png" alt="Rotating Fox" class="rotate_fox">
+                </div>
+                <hr>
+                <button id="reload">Try Again</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
