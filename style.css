@@ -4,6 +4,58 @@ body {
     overflow: hidden;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    padding: 12px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    height: 64px;
+    background-color: #212121;
+}
+
+.navbar .nav-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar button {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+
+.navbar button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.navbar .model-selector {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 12px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.navbar img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
 .box {
     position: absolute;
     top: 50%;
