@@ -1,0 +1,31 @@
+body {
+    background-color: #212121;
+    color: white;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 70%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #424242;
+    box-sizing: border-box;
+}
+
+.inside-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #424242;
+    box-sizing: border-box;
+}
