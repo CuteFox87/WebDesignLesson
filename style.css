@@ -96,3 +96,16 @@ body {
     background-color: #424242;
     box-sizing: border-box;
 }
+
+.inside-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.joke {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12px;
+}
