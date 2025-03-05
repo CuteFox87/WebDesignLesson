@@ -1,8 +1,8 @@
 # Web0x1 當機等候網頁
 
-type: Web
-Author: 陳柄佑
-Date: March 4, 2025
+type: Web<br>
+Author: 陳柄佑<br>
+Date: March 4, 2025<br>
 
 # ChatGPT 等候頁面
 
@@ -282,3 +282,7 @@ Date: March 4, 2025
 ## Web Page Link
 
 [ChatGPT](https://cutefox87.github.io/WebDesignLesson/)
+
+## 為何那麼多星星呢
+
+~~老師上課帶頭刷星星~~
