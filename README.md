@@ -17,10 +17,7 @@ Date: March 4, 2025
 
 - **與 chatGPT 相同主題顏色和 icon**
     - 採用 ChatGPT 原有簡單不單調風格設計
-    - 網頁截圖
-        
-        ![圖片.png](%E5%9C%96%E7%89%87.png)
-        
+    - 網頁風格
         ```css
         body {
             background-color: #212121;
@@ -31,8 +28,6 @@ Date: March 4, 2025
         
     - title and icon
         
-        ![圖片.png](%E5%9C%96%E7%89%87%201.png)
-        
         ```html
         <link rel="icon" href="https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico" sizes="32x32">
         <title>ChatGPT</title>
@@ -40,8 +35,6 @@ Date: March 4, 2025
         
 - **Navigation Bar**
     - 網頁截圖
-        
-        ![圖片.png](%E5%9C%96%E7%89%87%202.png)
         
     - Navigation Bar HTML
         
@@ -140,14 +133,10 @@ Date: March 4, 2025
     - 錯誤訊息
         - 告知使用者現在系統無法使用
         
-        ![圖片.png](%E5%9C%96%E7%89%87%203.png)
-        
     - 可愛的小狐狸
         - 單純因為很可愛，讓使用者被這狐狸可愛給療育
         - 這張圖是透過 DALL·E 生成
         - You can look at this small cute fox rotating.
-            
-            ![圖片.png](%E5%9C%96%E7%89%87%204.png)
             
     - 資訊相關冷笑話
         - 能夠讓 GPT 工程師們在繁忙壓力大的生活下，透過資訊冷笑話會心一笑
@@ -181,8 +170,6 @@ Date: March 4, 2025
             ```
             
         - Or you can read this random cold joke.
-            
-            ![圖片.png](%E5%9C%96%E7%89%87%205.png)
             
         - select jokes randomly
             
@@ -287,10 +274,6 @@ Date: March 4, 2025
 - 響應式設計
     - 本次作業時間比較緊湊，無法做到適應不同裝置響應式設計
 - 更多有趣的笑話
-
-## Commit 次數
-
-![圖片.png](%E5%9C%96%E7%89%87%206.png)
 
 ## Repo Link
 
