@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>POPCAT CLASSIC</title>
+        <style>
+            /* 1. 基本設定 */
+            body {
+                /* 移除預設邊距 */
+                margin: 0;
+                /* 設定字體 */
+                font-family: sans-serif;
+            }
+
+            .container {
+                /* 設定背景色 */
+                background-color: #bdaa90;
+                /* 防止文字被選取 */
+                user-select: none;
+
+                /* 讓內容佔滿整個視窗 */
+                height: 100vh;
+
+                /* 垂直排列內容 */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* 2. 標題圖片 */
+            .title {
+                /* 上方間距 */
+                margin-top: 2em;
+
+                /* 寬度設定 */
+                width: 80%;
+                max-width: 600px;
+            }
+
+            /* 3. 貓咪圖片 */
+            .cat-img {
+                /* 填滿剩餘空間 */
+                flex: 1;
+
+                /* 寬度設定 */
+                width: 100%;
+                max-width: 800px;
+
+                /* 背景圖片設定 */
+                background-position: bottom;
+                background-size: contain;
+                background-repeat: no-repeat;
+
+                /* 文字置中 */
+                text-align: center;
+                /* 文字樣式 */
+                color: white;
+                font-size: 80px;
+                font-weight: 900;
+                -webkit-text-stroke: 3px black;
+
+            }
+
+            /* 4. 貓咪狀態 */
+            #p {
+                background-image: url("imgs/p.png");
+            }
+            #op {
+                background-image: url("imgs/op.png");
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <img class="title" src="imgs/popcat.svg" alt="POPCAT">
+            <div class="cat-img" id="p">0</div>
+        </div>
+
+        <script>
+            const img = new Image();
+            img.src = 'imgs/op.png';
+
+            let count = 0;
+            const cat = document.querySelector('.cat-img');
+
+            document.addEventListener('keydown', () => {
+                count++;
+                cat.textContent = count;
+                cat.id = 'op';
+                new Audio('pops/pop1.mp3').play();
+            });
+            document.addEventListener('keyup', () => {
+                cat.id = 'p';
+            });
+
+            document.addEventListener('mousedown', () => {
+                count++;
+                cat.textContent = count;
+                cat.id = 'op';
+                new Audio('pops/pop1.mp3').play();
+            });
+            document.addEventListener('mouseup', () => {
+                cat.id = 'p';
+            });
+        </script>
+    </body>
+</html>
